@@ -1,0 +1,23 @@
+.work{
+    padding: 25px;
+}
+
+.portfolio{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+
+@media only screen and (max-width: 789px){
+    .portfolio{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+  }
+  @media only screen and (max-width: 600px){
+    .portfolio{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+  }

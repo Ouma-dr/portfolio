@@ -1,0 +1,35 @@
+.workItems{
+    background: #d987fa;
+    padding: 15px; 
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px #d987fa;
+}
+.workItems:hover{
+    transform: scale(0.9);
+}
+.workItems img{
+    width: 100%;
+    height: 200px;
+}
+.Info{
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    padding-top: 6px;
+    color: #4e0969;
+}
+.Link{
+    text-decoration: none;
+    color: #4e0969;
+    width: 60px;
+    padding: 10px;
+    border-radius: 6px;
+    background: linear-gradient(92.23deg,
+   #ff56f6 21.43%,
+   #b936ee 50.63%,
+   #3bace2 100%,
+   #406aff 117.04%
+   ); 
+}

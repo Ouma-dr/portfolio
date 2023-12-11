@@ -1,0 +1,21 @@
+.logo{
+    padding: 40px;
+}
+
+.contact-desc{
+    display: flex;
+}
+.contact-desc p{
+    padding-left: 15px;
+    color: #9606cf;
+}
+
+@media only screen and (max-width: 480px){
+    .contact-desc{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .logo{
+        padding: 10px;
+    }
+}

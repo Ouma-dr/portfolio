@@ -1,0 +1,10 @@
+.footer p {
+    background: #d987fa;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.footer p  span{
+    padding-left: 10px;
+}
