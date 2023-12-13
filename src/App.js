@@ -20,7 +20,7 @@ function App() {
       <Route exact path='/skills' element={ <Skills/>}/>
       <Route exact path='/work' element={ <Work/>}/>
       <Route exact path='/contact' element={ <Contact/>}/>
-      <Route exact path='*' element={ <Error/>}/>
+      <Route exact path='/*' element={ <Error/>}/>
     </Routes>
     
     
