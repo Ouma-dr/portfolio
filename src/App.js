@@ -6,7 +6,6 @@ import Work from './pages/Work';
 import Contact from './pages/Contact';
 import {Routes, Route } from 'react-router-dom'; 
 import Skills from './pages/Skills';
-import Error from './pages/Error';
 
 function App() {
   
@@ -20,7 +19,6 @@ function App() {
       <Route exact path='/skills' element={ <Skills/>}/>
       <Route exact path='/work' element={ <Work/>}/>
       <Route exact path='/contact' element={ <Contact/>}/>
-      <Route exact path='/*' element={ <Error/>}/>
     </Routes>
     
     
